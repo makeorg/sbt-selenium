@@ -39,7 +39,7 @@ RUN \
   ls -l /tmp/ && pacman -Sy && \
   # Install it with its dependency
   pacman -U /tmp/google-chrome-*-x86_64.pkg.tar.xz --noconfirm && \
-  pacman -U /tmp/chromedriver/chromedriver-*-x86_64.pkg.tar.xz --noconfirm && \
+  pacman -U /tmp/chromedriver-*-x86_64.pkg.tar.xz --noconfirm && \
   # Clean cache
   pacman -Scc --noconfirm
 
