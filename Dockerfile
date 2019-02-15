@@ -1,4 +1,4 @@
-FROM base/archlinux:latest as builder
+FROM archlinux/base:latest as builder
 MAINTAINER François LAROCHE "fl@make.org"
 
 # Let's run stuff
